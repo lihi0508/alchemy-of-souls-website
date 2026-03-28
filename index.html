@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alchemy of Souls | Premium Streaming</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        .hero-container-centered {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            z-index: 2;
+            position: relative;
+        }
+        .massive-title {
+            font-size: 6rem;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="loader" class="loader">
+        <div class="loader-inner">
+            <div class="loader-half loader-top"></div>
+            <div class="loader-half loader-bottom"></div>
+            <div class="sword-slice"></div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="episodes.html">Episodes</a></li>
+            <li><a href="cast.html">Cast</a></li>
+            <li><a href="ost.html">OST</a></li>
+            <li><a href="more.html">More</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero modern-hero" style="min-height: 100vh; padding-top: 120px; padding-bottom: 60px; overflow: hidden; position: relative;">
+        <div class="hero-background" style="background: url('images/4.jpg') center/cover; opacity: 0.15; filter: blur(5px);"></div>
+        <div class="ambient-blobs">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+        </div>
+        
+        <div class="container hero-container-centered">
+            <div class="hero-layout">
+                
+                <!-- Left side content -->
+                <div class="hero-content">
+                    <span class="badge" style="margin-bottom: 1.5rem; display: inline-block;">The Magic Continues</span>
+                    <h1 class="cinematic-title massive-title" style="font-size: 4.5rem; line-height: 1.1; margin-bottom: 1.5rem; text-align: left;">Alchemy <br><span class="text-light">of</span> Souls</h1>
+                    <p class="hero-desc" style="text-align: left; max-width: 500px; font-size: 1.1rem; line-height: 1.6; margin-bottom: 2.5rem;">In the mystical country of Daeho, a young master from a noble family seeks the help of a powerful shadow assassin trapped in a blind woman's body to rewrite his sealed destiny.</p>
+                    
+                    <div class="hero-buttons" style="justify-content: flex-start;">
+                        <a href="https://www.netflix.com/title/81517188" target="_blank" class="btn btn-primary glow-effect">
+                            <svg viewBox="0 0 24 24" class="btn-icon"><path d="M8 5v14l11-7z"/></svg> 
+                            Watch on Netflix
+                        </a>
+                        <a href="episodes.html" class="btn btn-secondary glass-effect">Explore Episodes</a>
+                    </div>
+                    
+                    <div class="hero-stats" style="margin-top: 3rem; display: flex; gap: 2rem; align-items: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem;">
+                        <div class="stat"><span class="stat-val" style="font-size: 1.2rem;">S1 & S2</span><span class="stat-label">Available</span></div>
+                        <div class="stat"><span class="stat-val" style="font-size: 1.2rem;">9.1/10</span><span class="stat-label">IMDb Rating</span></div>
+                        <div class="stat"><span class="stat-val" style="font-size: 1.2rem;">Top 10</span><span class="stat-label">Global</span></div>
+                    </div>
+                </div>
+
+                <!-- Right side creative composition -->
+                <div class="hero-visuals">
+                    <div class="image-composition">
+                        <img src="images/4.jpg" alt="Jang Uk" class="comp-img img-main">
+                        <img src="images/Alchemy-Of-Souls 2.jpg" alt="Naksu" class="comp-img img-floating-1">
+                        <img src="images/5.jpg" alt="Scene" class="comp-img img-floating-2">
+                        <div class="glass-orb orb-1"></div>
+                        <div class="glass-orb orb-2"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
+</body>
+</html>

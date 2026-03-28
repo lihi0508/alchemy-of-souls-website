@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cast | Alchemy of Souls</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="loader" class="loader">
+        <div class="loader-inner">
+            <div class="loader-half loader-top"></div>
+            <div class="loader-half loader-bottom"></div>
+            <div class="sword-slice"></div>
+        </div>
+    </div>
+    <div class="particles" id="particles"></div>
+
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="episodes.html">Episodes</a></li>
+            <li><a href="cast.html" class="active">Cast</a></li>
+            <li><a href="ost.html">OST</a></li>
+            <li><a href="more.html">More</a></li>
+        </ul>
+    </nav>
+
+    <header class="page-header" style="padding-bottom: 30px;">
+        <h1>The Visionaries</h1>
+    </header>
+
+    <main class="container">
+        <div class="crew-section" style="margin-bottom: 5rem; display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+            <div class="crew-card" style="background: var(--glass-bg); padding: 2rem 3rem; border-radius: 20px; border: 1px solid var(--glass-border); text-align: center; backdrop-filter: blur(10px); box-shadow: 0 10px 30px rgba(0,0,0,0.5); transition: transform 0.3s; cursor: pointer;">
+                <h3 style="color: var(--electric-blue); font-family: 'Cinzel', serif; margin-bottom: 0.8rem; font-size: 1.4rem;">Director</h3>
+                <p style="font-size: 1.2rem; color: #fff; font-weight: 600;">Park Joon-hwa</p>
+            </div>
+            <div class="crew-card" style="background: var(--glass-bg); padding: 2rem 3rem; border-radius: 20px; border: 1px solid var(--glass-border); text-align: center; backdrop-filter: blur(10px); box-shadow: 0 10px 30px rgba(0,0,0,0.5); transition: transform 0.3s; cursor: pointer;">
+                <h3 style="color: var(--electric-blue); font-family: 'Cinzel', serif; margin-bottom: 0.8rem; font-size: 1.4rem;">Scriptwriters</h3>
+                <p style="font-size: 1.2rem; color: #fff; font-weight: 600;">Hong Sisters</p>
+                <p style="font-size: 0.95rem; color: var(--text-muted); margin-top: 5px;">(Hong Jung-eun, Hong Mi-ran)</p>
+            </div>
+            <div class="crew-card" style="background: var(--glass-bg); padding: 2rem 3rem; border-radius: 20px; border: 1px solid var(--glass-border); text-align: center; backdrop-filter: blur(10px); box-shadow: 0 10px 30px rgba(0,0,0,0.5); transition: transform 0.3s; cursor: pointer;">
+                <h3 style="color: var(--electric-blue); font-family: 'Cinzel', serif; margin-bottom: 0.8rem; font-size: 1.4rem;">Director of Photography</h3>
+                <p style="font-size: 1.2rem; color: #fff; font-weight: 600;">Jang Jong-kyung</p>
+            </div>
+        </div>
+
+        <header class="page-header" style="padding-top: 0; padding-bottom: 50px;">
+            <h1>The Characters</h1>
+        </header>
+        
+        <div class="cast-grid">
+            <div class="cast-card">
+                <div class="cast-img"><img src="images/11.png" alt="Lee Jae-wook" onerror="this.src='https://via.placeholder.com/400x500/0a0f1a/00f0ff?text=11'"></div>
+                <div class="cast-info">
+                    <h3>Lee Jae-wook</h3>
+                    <p>as Jang Uk</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-img"><img src="images/22.jpeg" alt="Jung So-min" onerror="this.src='https://via.placeholder.com/400x500/0a0f1a/00f0ff?text=22'"></div>
+                <div class="cast-info">
+                    <h3>Jung So-min</h3>
+                    <p>as Mu-deok / Nak-su</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-img"><img src="images/33.jpg" alt="Hwang Min-hyun" onerror="this.src='https://via.placeholder.com/400x500/0a0f1a/00f0ff?text=33'"></div>
+                <div class="cast-info">
+                    <h3>Hwang Min-hyun</h3>
+                    <p>as Seo Yul</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-img"><img src="images/44.jpg" alt="Go Youn-jung" onerror="this.src='https://via.placeholder.com/400x500/0a0f1a/00f0ff?text=44'"></div>
+                <div class="cast-info">
+                    <h3>Go Youn-jung</h3>
+                    <p>as Nak-su</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
